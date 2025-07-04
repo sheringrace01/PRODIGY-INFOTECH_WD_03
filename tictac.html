@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TicTac Game</title>
+  <link rel="stylesheet" href="tictac.css"/>
+</head>
+<body>
+<h1 style="color: red; text-align: center;">Tic Tac Toe</h1>
+<div class id="board">
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+  <div class="cell" onclick="makeMove(this)"></div>
+ </div>
+  
+ <div id="result"></div>
+
+  <button onclick="restartGame()">Restart</button>
+
+  <script src="tictac.js"></script>
+</body>
+</html>
